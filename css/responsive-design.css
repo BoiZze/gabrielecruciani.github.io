@@ -1,0 +1,184 @@
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+
+    .nav-bar {
+        height: 80px;
+    }
+    .logo-container {
+        margin-top: -50px;
+        margin-left: -32px;
+    }
+    .carousel {
+        position: absolute;
+        top: 24.5px;
+        left: 41px;
+    }
+    .page-inside{
+        right: 10px;
+        top: 15px;
+        justify-content: end;
+    }
+    .social {
+        position: absolute;
+        display: flex;
+        justify-content: end;
+        bottom: 15px;
+        left: 0px;
+    }
+    .link-page {
+        font-size: 16px;
+        margin: 0px 8px;
+    }
+    .first-container {
+        display: inline-block;
+        margin-bottom: 80px;
+    }
+    .title {
+        display: flex;
+        font-size: 30px;
+        margin-top: 8rem;
+        margin-bottom: 2rem;
+    }
+    .picture-profile {
+        width: 45%;
+        margin-right: 0;
+    }
+    .who-i-am {
+        margin-right: 25px;
+    }
+    .back-description {
+        bottom: -5px;
+        left: 75px;
+        font-size: 45px;
+    }
+    .my-description {
+        width: 250px;
+        font-size: 15px;
+    }
+    .wrap {
+        height: 350px;
+        display: none;
+    }
+    .second-container {
+        display: inline-block;
+        align-items: center;
+    }
+    .home-container {
+        margin: auto;
+        padding: 20px 0 50px 0;
+    }
+    .my-blockchain {
+        text-align: center;
+        width: auto;
+        font-size: 15px;
+    }
+    .update {
+        font-size: 11px;
+        margin: 200px 0 50px 0;
+    }
+    .divTable .divTableRow {
+        display: block;
+    }
+     .divTable .divTableCell {
+        display: block;
+        width: 100%;
+    }
+    .divTableRow {
+        padding-top: 0px;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 601px) and (max-width: 999px) {
+
+    .nav-bar {
+        height: 80px;
+    }
+    .logo-container {
+        margin-top: -50px;
+        margin-left: -20px;
+    }
+    .carousel {
+        top: 24.5px;
+        left: 53px;
+    }
+    .page-inside{
+        right: 5px;
+        top: 15px;
+        justify-content: end;
+    }
+    .social {
+        position: absolute;
+        display: flex;
+        justify-content: end;
+        bottom: 15px;
+        left: 0px;
+        right: -10px;
+    }
+    .link-page {
+        font-size: 16px;
+        margin: 0px 8px;
+    }  
+    .title {
+        display: flex;
+        font-size: 35px;
+        margin-top: 8rem;
+        margin-bottom: 2rem;
+    }
+    .picture-profile {
+        display: block;
+        width: 50%;
+        margin-right: 0;
+    }
+    .who-i-am {
+        margin-right: 20px;
+    }
+    .back-description {
+        bottom: 20px;
+        left: 155px;
+        font-size: 45px;
+    } 
+    .my-description {
+        width: 340px;
+        font-size: 18px;
+    }
+    .wrap {
+        height: 350px;
+        display: none;
+    }
+    .second-container {
+        display: inline-block;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .home-container {
+        margin: auto;
+        padding: 20px 0 50px 0;
+    }
+    .my-blockchain {
+        text-align: center;
+        width: auto;
+        font-size: 15px;
+    }
+    .update {
+        font-size: 11px;
+        margin: 200px 0 50px 0;
+    }
+    .divTable .divTableRow {
+        display: block;
+    }
+     .divTable .divTableCell {
+        display: block;
+        width: 100%;
+    }
+    .divTableRow {
+        padding-top: 0px;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1000px) {
+    .first-container {
+        width: 100%;
+    }
+}

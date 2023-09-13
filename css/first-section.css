@@ -1,0 +1,58 @@
+
+.first-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    color: rgb(240, 240, 240);
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+}
+
+.who-i-am {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.back-description {
+    position: absolute;
+    bottom: 94px;
+    left: 220px;
+    width: fit-content;
+    font-size: 120px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(85, 85, 85, 0.3);
+}
+
+.my-description {
+    width: 710px;
+    font-size: 35px;
+    font-weight: 400;
+    color: rgb(120, 120, 120);
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.08);
+}
+
+.picture-container {
+    display: flex;
+    justify-content: end;
+}
+
+.picture-profile {
+    width: 100%;
+    min-width: 90px;
+    max-width: 350px;
+    border-radius: 15px;
+}

@@ -1,0 +1,86 @@
+
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.nav-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    background: linear-gradient(to bottom, #0b1016 0%, #161f2b 90%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.logo-container {
+    margin-top: -50px;
+    margin-left: 5px;
+    padding: 0;
+}
+
+.picture-logo {
+    width: 200px;
+}
+
+.carousel {
+    position: relative;
+    top: -9px;
+    left: -1193px;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 7.5px;
+    color: rgb(240, 240, 240);  
+}
+
+.page-inside {
+    display: flex;
+    position: fixed;
+    width: fit-content;
+    justify-content: center;
+}
+
+.link-page {
+    margin: 0px 30px;
+    text-decoration: none;
+    font-family: Antonio;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(240, 240, 240);
+}
+
+.social {
+    display: flex;
+    justify-content: end;
+    padding-right: 24px;
+    margin-right: 25px;
+}
+
+.fa {
+    padding: 0px;
+    width: 34px;
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    margin-left: 8px;
+    margin-right: 8px;
+    transition: top 2s;
+}
+
+.link-page:hover,
+.fa:hover {
+    color: #4C5E8D;
+    opacity: 0.7;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+	.picture-logo {
+        margin-left: -35px;
+    }
+
+}

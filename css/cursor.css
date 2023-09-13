@@ -1,0 +1,21 @@
+.cursor {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 2px solid white;
+    transition: all 0ms ease-out;
+    position: fixed;
+    z-index: 99999;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    transform: translate(-35px, -35px);
+    transition: width 0.25s;
+}
+
+.cursor.hover {
+    border-color: white;
+    width: 35px;
+    height: 35px;
+    opacity: 0.3;
+}
