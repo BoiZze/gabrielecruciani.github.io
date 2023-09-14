@@ -9,13 +9,11 @@
     pointer-events: none;
     left: 0;
     top: 0;
-    transform: translate(-35px, -35px);
-    transition: width 0.25s;
 }
 
 .cursor.hover {
-    border-color: white;
-    width: 35px;
-    height: 35px;
-    opacity: 0.3;
+    border-color: black;
+    width: 40px;
+    height: 40px;
+    opacity: 0.6;
 }
