@@ -43,3 +43,56 @@ videos.forEach(video => {
       }
     });
   });
+
+
+  // Ottieni il riferimento all'elemento del form
+var fnameInput = document.getElementById("fname");
+var lnameInput = document.getElementById("lname");
+var emailInput = document.getElementById("email");
+var messageInput = document.getElementById("message");
+var sendInput = document.getElementById("send");
+
+// Ottieni il riferimento all'elemento del cursore personalizzato
+var cursor = document.querySelector(".cursor");
+
+// Aggiungi un gestore di eventi per l'evento mouseenter per ciascun campo
+fnameInput.addEventListener("mouseenter", function () {
+  cursor.classList.add("hover");
+});
+
+lnameInput.addEventListener("mouseenter", function () {
+  cursor.classList.add("hover");
+});
+
+emailInput.addEventListener("mouseenter", function () {
+  cursor.classList.add("hover");
+});
+
+messageInput.addEventListener("mouseenter", function () {
+  cursor.classList.add("hover");
+});
+
+sendInput.addEventListener("mouseenter", function () {
+  cursor.classList.add("hover");
+});
+
+// Aggiungi un gestore di eventi per l'evento mouseleave per ciascun campo
+fnameInput.addEventListener("mouseleave", function () {
+  cursor.classList.remove("hover");
+});
+
+lnameInput.addEventListener("mouseleave", function () {
+  cursor.classList.remove("hover");
+});
+
+emailInput.addEventListener("mouseleave", function () {
+  cursor.classList.remove("hover");
+});
+
+messageInput.addEventListener("mouseleave", function () {
+  cursor.classList.remove("hover");
+});
+
+sendInput.addEventListener("mouseleave", function () {
+  cursor.classList.remove("hover");
+});
