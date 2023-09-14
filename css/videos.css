@@ -35,10 +35,6 @@ p {
     text-align: center;
 }
 
-.iframe {
-	z-index: -1;
-}
-
 .update {
     display: flex;
     justify-content: center;
