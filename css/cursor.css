@@ -9,6 +9,7 @@
     pointer-events: none;
     left: 0;
     top: 0;
+    transition: width 0.15s;
 }
 
 .cursor.hover {
