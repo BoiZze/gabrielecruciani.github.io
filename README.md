@@ -1,18 +1,3 @@
-<!--
-**BoiZze/BoiZze** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 Hi 👋 My name is Gabriele Cruciani
 ===================================
 
@@ -22,6 +7,32 @@ Developer Blockchain Student
 * 🖥️  See my portfolio at [Website](http://gabrielecruciani.github.io)
 * ✉️  You can contact me at [gabriele.cru04@gmail.com](mailto:gabriele.cru04@gmail.com)
 * 📹  I'm also a videomaker
+----------------------------------------------------------------------------------------
+
+Qui puoi visualizzare la presentazione del mio progetto [Website](https://www.canva.com/design/DAFuguy5euU/_5WhL72MUTqSL___Oi3U9Q/view?utm_content=DAFuguy5euU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+
+
+Root folder:
+
+* This is the main directory of my website.
+* It contains the main files such as index.html that make up the main page of the site.
+* All other files and directories are organized under this folder.
+
+Directory "assets":
+
+* Contains CSS files that manage the formatting and styling of the website.
+* All the images used on the website are archived here.
+* This is where all the JavaScript files used to add dynamic functionality to the website are located.
+
+Directory "contactform":
+
+* This folder contains the HTML, CSS and JS files relating to the contact form.
+
+Directory "video":
+
+* This folder contains the HTML file relating to the video page.
+
+
 
 ### Skills
 
