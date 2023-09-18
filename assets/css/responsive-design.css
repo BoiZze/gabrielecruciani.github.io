@@ -91,10 +91,14 @@
     }
      .divTable .divTableCell {
         display: block;
-        width: 100%;
+        width: 78%;
     }
     .divTableRow {
         padding-top: 0px;
+    }
+    iframe {
+        width: 550px;
+        height: 300px;
     }
 }
 
