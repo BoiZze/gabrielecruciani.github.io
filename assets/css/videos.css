@@ -35,12 +35,29 @@ p {
     text-align: center;
 }
 
-.update {
+.update--flex {
     display: flex;
     justify-content: center;
+}
+
+.update {
+    display: inline-flex;
+    position: relative;
     font-size: 18px;
     font-weight: 400;
     margin: 250px 0 50px 0;
     color: rgb(120, 120, 120);
     text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.08);
+}
+
+
+
+@media only screen and (max-width: 999px) {
+
+    .update--flex {
+        display: flex !important;
+        justify-content: center !important;
+        width: 819px !important;
+    }
+    
 }
