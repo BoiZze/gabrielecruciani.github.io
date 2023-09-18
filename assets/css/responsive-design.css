@@ -1,6 +1,6 @@
 /* Mobile Styles */
 @media only screen and (max-width: 600px) {
-    .cursor .cursor2 {
+    .cursor {
         display: none !important;
     }
     .nav-bar {
