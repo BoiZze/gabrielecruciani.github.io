@@ -1,14 +1,6 @@
 Hi 👋 My name is Gabriele Cruciani
 ===================================
 
-Developer Blockchain Student 
-----------------------------
-
-* 🖥️  See my portfolio at [Website](http://gabrielecruciani.github.io)
-* ✉️  You can contact me at [gabriele.cru04@gmail.com](mailto:gabriele.cru04@gmail.com)
-* 📹  I'm also a videomaker
-----------------------------------------------------------------------------------------
-
 Qui puoi visualizzare la presentazione del mio progetto [Website](https://www.canva.com/design/DAFuguy5euU/_5WhL72MUTqSL___Oi3U9Q/view?utm_content=DAFuguy5euU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 
@@ -32,6 +24,14 @@ Directory "video":
 
 * This folder contains the HTML file relating to the video page.
 
+
+Developer Blockchain Student 
+----------------------------
+
+* 🖥️  See my portfolio at [Website](http://gabrielecruciani.github.io)
+* ✉️  You can contact me at [gabriele.cru04@gmail.com](mailto:gabriele.cru04@gmail.com)
+* 📹  I'm also a videomaker
+----------------------------------------------------------------------------------------
 
 
 ### Skills
