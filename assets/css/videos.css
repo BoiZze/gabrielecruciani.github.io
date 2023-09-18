@@ -29,7 +29,7 @@
 	display: table-row-group;
 }
 
-p {
+h2 {
     color: white;
     font-size: 18px;
     text-align: center;
@@ -54,12 +54,22 @@ p {
 
 @media only screen and (max-width: 999px) {
 
-	.update--flex {
-        	display: flex !important;
-        	justify-content: center !important;
-        	width: 819px !important;
-    	}
-	.update {
+    .update--flex {
+        display: flex !important;
+        justify-content: center !important;
+        width: 819px !important;
+    }
+    .update {
         font-size: 16px !important;
-    	}   
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    h2 {
+        position: relative;
+        right: -75px;
+    }
+
 }
