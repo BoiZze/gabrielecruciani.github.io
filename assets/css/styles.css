@@ -12,4 +12,5 @@ body {
     font-family: Antonio;
     background: radial-gradient(ellipse at center, #1b2735 0%, #090a0f 600%);
     height: auto;
+    caret-color: transparent;
 }
